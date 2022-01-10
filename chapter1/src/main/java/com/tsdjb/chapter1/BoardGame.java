@@ -2,7 +2,7 @@ package com.tsdjb.chapter1;
 
 import org.springframework.data.annotation.Id;
 
-class BoardGame {
+public class BoardGame {
     @Id
     Long id;
     String name;
