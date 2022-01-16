@@ -1,4 +1,4 @@
-create table board_game(
-id bigint auto_increment primary key,
-name varchar(200)
+CREATE TABLE BOARD_GAME(
+    ID BIGINT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(200)
 );
