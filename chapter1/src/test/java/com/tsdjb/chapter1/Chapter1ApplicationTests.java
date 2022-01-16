@@ -2,14 +2,12 @@ package com.tsdjb.chapter1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTest;
-import org.springframework.boot.test.context.SpringBootTest;
 
 @DataJdbcTest
 class Chapter1ApplicationTests {
 	@Autowired
-	BoardGames games;
+	BoardGameRepository games;
 
 	@Test
 	void contextLoads() {
