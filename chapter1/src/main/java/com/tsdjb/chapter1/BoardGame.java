@@ -10,4 +10,12 @@ class BoardGame {
     public BoardGame(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "BoardGame{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
